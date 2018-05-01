@@ -1,0 +1,1 @@
+echo yes|reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v inactivitytimeoutsecs /t REG_DWORD /d 1800
